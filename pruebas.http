@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/fotos
+Content-Type: application/json
+
+{
+    "titulo": "Cerro Santa Ana",
+    "descripcion": "Vista de Guayaquil",
+    "calificacion": 5
+}
+
+POST http://localhost:3000/api/fotos
+Content-Type: application/json
+
+{}
+
+GET http://localhost:3000/api/error
